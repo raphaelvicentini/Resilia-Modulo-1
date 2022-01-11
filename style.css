@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-image: url("./img/fundo.jpg");
+  background-size: cover;
+  
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(0, 217, 255);
+}
+::-webkit-scrollbar-thumb {
+  background: #3cd82e;
+  border-radius: 30px;
+}
+.text {
+  display: block;
+  color: #1a09b4;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 30px;
+  color: rgb(243, 247, 247);
+}
+.card img {
+  margin: 30px;
+  margin-bottom: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 150px;
+  transition: all .7s ease-out;
+  cursor: pointer;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+p {
+  color: rgb(241, 12, 31);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 140px 0 40px 0;
+  color: #0c08f3;
+}
+@media screen and (max-width: 700px) {
+  .card img {
+    margin: 20px;
+    margin-bottom: 30px;
+    width: 320px;
+    height: 450px;
+    border-radius: 30px;
+    transition: all .3s ease-out;
+    cursor: pointer;
+  }
+  .card img:hover {
+    transform: none;
+  }
+}
+@media screen and (max-width: 340px) {
+  .card img {
+    width: 280px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition: all .3s ease-out;
+    cursor: pointer;
+  }
+  .card img:hover {
+    transform: none;
+  }
+}
