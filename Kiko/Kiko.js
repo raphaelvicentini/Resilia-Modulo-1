@@ -1,7 +1,7 @@
 function Responder() { 
     while(true) {    
       let option;
-      option = prompt("1-Kiko tenta enganar sua mãe e fala que emprestou sua bola para o filho do Sr.barriga? \n 2-KIko pede desculpas para sua mãe e promete ter mais atenção com seus briquedos?");      
+      option = prompt("1-Kiko tenta enganar sua mãe e fala que emprestou sua bola para o filho do Sr.barriga? \n 2-KIko pede desculpas para sua mãe e promete ter mais atenção com seus brinquedos?");      
       if (option == 1) {
         alert("GAME OVER ☠️) (TENTE NOVAMENTE!!!)");
         location.replace("../gameOver/gameover.html");
@@ -40,7 +40,7 @@ function Responder() {
         break;
       } else if (option == 2) {
         alert("Muito Bom!! Você Venceu 🏆🏅");
-        location.replace("../Win/win.html");
+        location.replace("../win/win.html");
         break;
       }
       alert ("Responda com 1 ou 2.")

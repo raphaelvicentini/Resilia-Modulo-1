@@ -41,7 +41,7 @@ function ResponderFase3() {
       break;
     } else if (option == 2) {
       alert("Muito Bom!! Você Venceu 🏆🏅");
-      location.replace("../Win/win.html");
+      location.replace("../win/win.html");
       break;
     }
     alert("Responda com 1 ou 2.")

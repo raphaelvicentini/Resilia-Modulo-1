@@ -38,14 +38,14 @@ function Responder() {
   function ResponderFase3() {
     while(true) {    
       let option;
-      option = prompt("1- Chiquinha pega o dinheiro e entrega para o seu pai pagar o aluguel. \n 2- Chiquinha pega o dinheiro e vai para <b>Acapulco</b> com seus amigos.");     
+      option = prompt("1- Chiquinha pega o dinheiro e entrega para o seu pai pagar o aluguel. \n 2- Chiquinha pega o dinheiro e vai para Acapulco com seus amigos.");     
       if (option == 1) {
         alert("(GAME OVER ☠️) (TENTE NOVAMENTE!!!)");
         location.replace("../gameOver/gameover.html");
         break;
       } else if (option == 2) {
         alert("Muito Bom!! Você Venceu 🏆🏅");
-        location.replace("../Win/win.html");
+        location.replace("../win/win.html");
         break;
       }
       alert ("Responda com 1 ou 2.");
